@@ -114,4 +114,4 @@ Distributed under the MIT License. See LICENSE for more information.
 
 - Department of CSE, Techno International New Town, West Bengal, India 
 
-*© 2024 MobileNetV2-FoodClassifier by Deepmalya Rakshit*
+**© 2024 MobileNetV2-FoodClassifier by Deepmalya Rakshit**
