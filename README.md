@@ -13,9 +13,10 @@ The selected model is converted into TensorFlow Lite format for efficient deploy
 
 ## Table of Contents
 
-- [Run Locally](🏃-run-locally)
-- [Dataset](#📦-dataset)
+- [Run Locally](#🏃-run-locally)
+- [Dataset](#📦dataset)
 - [Model Architecture](#🏗️-model-architecture)
+- [Hyperparameter Optimization](#🧠-hyperparameter-optimization)
 - [Evaluation](#📊-evaluation)
 - [Model Deployment with TensorFlow Lite](#📱-model-deployment-with-tensorflow-lite)
 - [Dependencies](#🛠️-dependencies)
@@ -29,7 +30,7 @@ The selected model is converted into TensorFlow Lite format for efficient deploy
 
 1. Clone this repository using the following command.
 ```bash
-  git clone https://github.com/Pramit726/MobileNetV2-FoodClassifier.git
+  git clone https://github.com/Deepmalya-Rakshit/MobileNetV2-FoodClassifier.git
 ```
 
 2. Create a new python virtual environment.
@@ -68,6 +69,13 @@ https://drive.google.com/file/d/1JsY1u6MIEwGQN6ilFBm3a1w18HmA9nfj/view?usp=drive
 
 ![model](https://github.com/Pramit726/MobileNetV2-FoodClassifier/assets/149934842/bf79373b-9634-4d38-8ae6-427fb036955b)
 
+## 🧠 Hyperparameter Optimization
+
+To enhance model performance, we conducted hyperparameter optimization, specifically targeting learning rates. We experimented with three different values: 10^-2, 10^-3, and 10^-4, across three epochs. This process allowed us to fine-tune our model's training process and achieve optimal results.
+
+Following illustration shows the trial information, learning rates and respective maximum validation accuracy conducted using Keras Tuner random search:
+![Screenshot 2024-04-29 100958](https://github.com/Pramit726/MobileNetV2-FoodClassifier/assets/149934842/604af5af-8bda-434c-bfea-268c131613c9)
+
 
 ## 📊 Evaluation
 
@@ -96,6 +104,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Keras Tuner
 - Matplotlib
 - NumPy
+- Pandas
 - Pillow
 - Requests
 - Scikit-Learn
@@ -110,8 +119,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🤝 Contributors
 
- **[Pramit De](https://github.com/Pramit726)**  
- - pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in 
+**[Pramit De](https://github.com/Pramit726)**  
+- pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in 
 
 - Department of CSE, Techno International New Town, West Bengal, India 
 
